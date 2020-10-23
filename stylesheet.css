@@ -1,0 +1,58 @@
+@font-face 
+{
+    font-family: 'raleway';
+    src: url('raleway/Raleway-Light.ttf')
+}
+
+
+html, body
+{
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+}
+  
+
+
+header img 
+{
+    width: 5em;
+
+}
+h1
+{
+ font-size: 25px;
+
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    float: right;
+  
+}
+
+li
+{
+    margin-left: 2em;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+li:hover
+{
+    color:#0065FC;
+    font-weight: bold;
+}
+
+.apply
+{
+    color: #0065FC;
+}
+
+img svg
+{
+    color: #0065FC;
+}
