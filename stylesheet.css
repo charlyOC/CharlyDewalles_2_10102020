@@ -5,54 +5,133 @@
 }
 
 
-html, body
+body
 {
     font-family: 'Raleway', sans-serif;
-    padding: 1em;
+    padding: 2.5em;
+    
 }
   
 
 
 header img 
 {
-    width: 5em;
-
-}
-h1
-{
- font-size: 25px;
-
+    width: 6em;
+    float: left;
+    padding-bottom: 2em;
 }
 
-ul
+header ul 
 {
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    float: right;
+   float: right;
+   
+}
+
+li 
+{
+    font-weight: 500;
+    padding-left: 3.5em;
+    display: inline-block;
+    
+    
+}
+
+#inscrire
+{
+    font-weight: 600; 
+    
+    
+}
+
+li a
+{
+    text-decoration: initial;
+    color: initial;
+}
+
+    
+
+a:hover
+{
+    
+    color: #0065FC;
+    border-top: 3px #0065FC solid;
+    padding-top: 63px;
+    
+    
+}
+
+
+
+header h1
+{
+    clear: left;
+    font-size: 25px;
+    font-weight: 800;
+    
+    
+}
+
+header h2
+{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.localisation
+{
+  display: flex;
+  align-items: center;
+  
+  
   
 }
 
-li
-{
-    margin-left: 2em;
-    display: inline-block;
-    text-decoration: none;
 
+#marker
+{
+    width: 1em;
+    background-color: #F2F2F2;
+    padding: 19px;
+    border-radius: 17px 0px 0px 17px;
+    
+    
 }
 
-li:hover
+#loc
 {
-    color:#0065FC;
-    font-weight: bold;
+    font-size: 20px;
+    padding: 16px;
+    padding-right: 80px;
+    border-top: 2px #F2F2F2 solid;
+    border-bottom: 2px #F2F2F2 solid;
+    
+    
+    
 }
 
-.apply
+#search
 {
-    color: #0065FC;
+    font-weight: 800;
+    font-size: 17px;
+    color: #F2F2F2;
+    background-color: #0065FC;
+    padding: 20px;
+    border-radius: 0px 17px 17px 0px;
+    
 }
 
-img svg
-{
-    color: #0065FC;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
