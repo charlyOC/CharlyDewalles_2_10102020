@@ -121,6 +121,43 @@ header h2
     
 }
 
+.filtres
+{
+    display: flex;
+    align-items: center;
+}
+
+
+#titre
+{
+    padding-right: 1.5em;
+    font-weight: 800;
+}
+
+
+.eco img
+{
+    width: 27px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.filtres h3
+{
+    padding-left: 0.8em;
+    border: #F2F2F2 solid;
+    border-radius: 20px;
+    padding: 1em;
+   
+}
+
+
+.disponible img
+{
+    width: 0.5em;
+}
+
 
 
 
