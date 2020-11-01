@@ -254,9 +254,6 @@ header h2
     margin-top: 40px;
     display: flex;  
     align-items: center;
-    
-    
-    
 }
 
 .disponible i 
@@ -266,6 +263,7 @@ header h2
     padding: 7px 12px 7px 12px;
     border: 2px #F2F2F2 solid; 
     border-radius: 50%;
+    
 }
 
 .disponible p
@@ -292,9 +290,7 @@ header h2
     font-size: 22px;
     padding-top: 35px;
     margin-left: 40px;
-    padding-right: 20em;
-    
-    
+    padding-right: 20em; 
 }
 
 .cannebiere
@@ -465,26 +461,51 @@ header h2
     
 }
 
-
-
-.populaires h2
-
+.populaires
 {
-    font-size: 22px;
-    padding-top: 35px;
-    margin-left: 40px;
-    padding-right: 20em;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    width: 30em;
+    margin-left: 4em;
+    border-radius: 25px;
+    margin-top: 20px;
 }
+
+#titre
+{
+    display: flex;
+    align-items: center;
+}
+
+#titre i 
+{
+    font-size: 20px;
+    margin-left: 6em;
+    margin-top: 1em;
+}
+
+#titre h2
+{
+    margin-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+
+
 
 .soleil
 {
     display: flex;
-    width: 25em;
+    width: 23em;
     height: 8em;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 1px 1px 10px grey;   
+    box-shadow: 1px 1px 10px grey;  
+    margin-bottom: 3em;
+    margin-left: 3em;
 }
 
 .soleil img
@@ -496,7 +517,69 @@ header h2
 
 
 
+.txt_2
+{
+    margin-left: 15px;
+    margin-top: -10px;
+    line-height: 17px;
+    
+}
 
+.txt_2 i 
+{
+    color: #0065FC;
+    font-size: 13px;
+    letter-spacing: -2px;
+    margin-top: 1.2em;
+    
+}
+
+
+.eau
+{
+    display: flex;
+    width: 23em;
+    height: 8em;
+    border: 6px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey;
+    margin-bottom: 3em;
+    margin-left: 3em;    
+}
+
+.eau img
+{
+   width: 9em; 
+   height: 8em; 
+   border-radius: 15px 0px 0px 15px; 
+}
+
+.bleu_blanc
+{
+    display: flex;
+    width: 23em;
+    height: 8em;
+    border: 6px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey;
+    margin-bottom: 3em;  
+    margin-left: 3em;  
+}
+
+.bleu_blanc img
+{
+   width: 9em; 
+   height: 8em; 
+   border-radius: 15px 0px 0px 15px; 
+}
+
+.main
+{
+    display: flex;
+    
+}
 
 
 
