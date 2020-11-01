@@ -270,9 +270,237 @@ header h2
 
 .disponible p
 {
-    padding-left: 19px;
+    padding-left: 19px;  
+}
+
+.hebergement
+{
+    width: 58.5em;
+    height: 45em;
+    background-color:#F2F2F2;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
     
 }
+
+.hebergement h2
+{
+    font-size: 22px;
+    padding-top: 35px;
+    margin-left: 40px;
+    padding-right: 20em;
+    
+    
+}
+
+.cannebiere
+{   
+    width: 15em;
+    height: 12.5em;
+    border: 6px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey; 
+    margin-left: 40px;
+    margin-bottom: 1em;
+    
+      
+}
+
+
+
+.cannebiere img
+{
+   width: 15em; 
+   height: 7em; 
+   border-radius: 15px 15px 0px 0px; 
+}
+
+.text
+{
+    padding-left: 8px;
+    line-height: 5px;
+}
+
+.text i 
+{
+    color: #0065FC;
+    font-size: 13px;
+    letter-spacing: -2px;
+    
+}
+
+#gris
+{
+  color: #DEEBFF;
+}
+
+
+
+.port
+{
+
+    margin-left: 50px;
+    width: 15em;
+    height: 12.5em;
+    border: 6px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey; 
+}
+
+
+
+.port img
+{
+   width: 15em; 
+   height: 7em; 
+   border-radius: 15px 15px 0px 0px; 
+}
+
+
+
+
+.mouettes
+{
+
+    margin-left: 50px;
+    width: 15em;
+    height: 12.5em;
+    border: 6px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey; 
+}
+
+
+
+.mouettes img
+{
+   width: 15em;
+   height: 7em; 
+   border-radius: 15px 15px 0px 0px; 
+}
+
+
+
+
+
+.mer
+{
+
+    margin-left: 40px;
+    width: 15em;
+    height: 12.5em;
+    border: 6px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey; 
+}
+
+
+
+.mer img
+{
+   width: 15em; 
+   height: 7em; 
+   border-radius: 15px 15px 0px 0px; 
+}
+
+
+.panier
+{
+
+    margin-left: 50px;
+    width: 15em;
+    height: 12.5em;
+    border: 6px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey; 
+}
+
+
+
+.panier img
+{
+   width: 15em; 
+   height: 7em; 
+   border-radius: 15px 15px 0px 0px; 
+}
+
+
+
+
+.amina
+{
+
+    margin-left: 50px;
+    width: 15em;
+    height: 12.5em;
+    border: 6px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey; 
+}
+
+
+
+.amina img
+{
+   width: 15em; 
+   height: 7em; 
+   border-radius: 15px 15px 0px 0px; 
+}
+
+.hebergement h4
+{
+    font-size: 17px;
+    margin-left: 40px;
+    padding-bottom: 1em;
+    
+}
+
+
+
+.populaires h2
+
+{
+    font-size: 22px;
+    padding-top: 35px;
+    margin-left: 40px;
+    padding-right: 20em;
+}
+
+.soleil
+{
+    display: flex;
+    width: 25em;
+    height: 8em;
+    border: 6px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey;   
+}
+
+.soleil img
+{
+   width: 9em; 
+   height: 8em; 
+   border-radius: 15px 0px 0px 15px; 
+}
+
+
+
+
+
+
+
+
 
 
 
