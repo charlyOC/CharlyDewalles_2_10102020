@@ -4,49 +4,45 @@
     src: url('raleway/Raleway-Light.ttf')
 }
 
+#container
+{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  
+}
 
 body
 {
     font-family: 'Raleway', sans-serif;
-    padding: 0;
-    margin: 0;
-    
-    
 }
 
 #top
 {
+    margin-top: 2em;
     display: flex;
     flex-flow: row;   
     justify-content: space-between; 
 }
 
-header
-{
-    margin-left: 3em;
-    margin-top: 3em;
-}
-  
 
 
 header img 
 {
-    width: 6em; 
+    width: 8%; 
     padding-bottom: 2em;
 }
 
-ul
-{
-    margin-right: 3em;
-    
-}
+
 
 
 li 
 {
     font-weight: 500;
-    font-size: 18px;
-    padding-left: 5em;
+    font-size: 15px;
+    padding-left: 4em;
     display: inline-block;
 }
 
@@ -64,8 +60,8 @@ a:hover
 {
     
     color: #0065FC;
-    border-top: 4px #0065FC solid;
-    padding-top: 3.4em;
+    border-top: 3px #0065FC solid;
+    padding-top: 55px;
 }
 
 #inscrire
@@ -78,8 +74,8 @@ a:hover
 
 header h1
 {
-    clear: left;
-    font-size: 25px;
+  
+    font-size: 20px;
     font-weight: 800;
     
     
@@ -88,7 +84,7 @@ header h1
 header h2
 {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .localisation
@@ -100,51 +96,48 @@ header h2
 
 .localisation i 
 {
-    font-size: 22px;
+    font-size: 18px;
     background-color: #F2F2F2;
-    padding: 19px;
+    padding: 17px;
     border-radius: 17px 0px 0px 17px;
 }
 
 #loc
 {
-    font-size: 20px;
-    padding: 16px;
+    font-size: 17px;
+    font-weight: 900;
+    padding: 14px;
     padding-right: 80px;
     border-top: 2px #F2F2F2 solid;
     border-bottom: 2px #F2F2F2 solid;
-    
-    
-    
+
 }
 
 #search
 {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 17px;
     color: #F2F2F2;
     background-color: #0065FC;
-    padding: 20px;
+    padding: 16px;
     border-radius: 0px 17px 17px 0px;
     
 }
 
 .filtres
 {
+
     display: flex;
     align-items: center;
     margin-top: 20px;
-    height: 4em;   
-    
 }
 
 
 
 #titre
 {
-    
+    font-size: 17px;
     font-weight: 800;
-    padding-right: 40px;
 }
 
 
@@ -159,11 +152,11 @@ header h2
 
 .eco
 {
-    margin-left: 18px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: inherit;
+    margin-left: 30px;
+    height: 50px;
     border: 2.5px  #F2F2F2 solid;
     border-left: none;
     border-radius: 65px 65px 65px 65px;
@@ -172,23 +165,26 @@ header h2
 
 .eco i
 {
-    padding: 22.5px 20px 22.5px 20px;
-    font-size: 20px;
+    padding: 18px 15.75px 18px 15.75px;
+    font-size: 18px;
 }
 
 .eco h3
 {
-   padding: 0px 19px 0px 19px;
+   padding: 0px 14px 0px 14px;
+   font-size: 16px;
+   font-weight: 800;
     
 }
 
 
 .familial
 {
-    margin-left: 35px;
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 50px;
     border: 2px  #F2F2F2 solid;
     border-left: none;
     border-radius: 65px 65px 65px 65px;
@@ -197,22 +193,24 @@ header h2
 
 .familial i
 {
-    padding: 20px 23px 20px 23.25px;
-    font-size: 25px;
+    padding: 15px 18px 15px 18px;
+    font-size: 24px;
 }
 
 .familial h3
-{
-    padding-left: 20px;
-    padding-right: 20px;
+{   
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 14px 0px 14px;
 }
 
 .romantique
 {
-    margin-left: 35px;
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 50px;
     border: 2px  #F2F2F2 solid;
     border-left: none;
     border-radius: 65px 65px 65px 65px;  
@@ -220,22 +218,24 @@ header h2
 
 .romantique i
 {
-    padding: 20px;
-    font-size: 25px;
+    padding: 17px;
+    font-size: 20px;
 }
 
 .romantique h3
 {
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 14px 0px 14px;
 }
 
 .animaux
 {
-    margin-left: 35px;
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 50px;
     border: 2px #F2F2F2 solid;    
     border-left: none;
     border-radius: 65px 65px 65px 65px; 
@@ -245,17 +245,16 @@ header h2
 
 .animaux i
 {
-    padding: 20.5px 19px 20.5px 19px;
-    font-size: 24px;
+    padding: 17px 15.75px 17px 15.75px;
+    font-size: 20px;
     
 }
 
 .animaux h3
 {
-    
-    padding-left: 20px;
-    padding-right: 20px;
-    
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 14px 0px 14px;
 }
 
 .disponible
@@ -278,65 +277,65 @@ header h2
 
 .disponible p
 {
-    font-size: 19px;
-    padding-left: 19px;  
+    font-size: 16px;
+    margin-left: 19px;  
 }
 
 .hebergement
 {
-    width: 72em;
-    height: 52em;
+    width: 65%;
+    height: 38em;
     background-color:#F2F2F2;
     border-radius: 25px;
     margin-top: 20px;
-    margin-left: 3em;
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    
+    flex-flow: wrap;
+    justify-content: space-between;
 }
 
 .hebergement h2
 {
-    font-size: 28px;
-    padding-top: 35px;
-    margin-left: 50px;
-    padding-right: 25em; 
+    margin-left: 37px;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    padding-right: 100%; 
     white-space: nowrap;
 }
 
 .cannebiere
 {   
-    width: 19em;
-    height: 16.5em;
+    width: 27%;
+    height: 29%;
+    margin-left: 37px;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
     box-shadow: 1px 1px 10px grey; 
-    margin-left: 50px;
-    margin-bottom: 50px;
+
 }
 
 
 
 .cannebiere img
 {
-   width: 19em; 
-   height: 11em; 
+   width: 100%; 
+   height: 60%; 
    border-radius: 15px 15px 0px 0px; 
    object-fit: cover;
 }
 
 .text
 {
-    padding-left: 8px;
+    font-size: 13px;
+    margin-left: 8px;
     line-height: 5px;
 }
 
 .text i 
 {
     color: #0065FC;
-    font-size: 13px;
+    font-size: 11px;
     letter-spacing: -2px;
     
 }
@@ -350,21 +349,21 @@ header h2
 
 .port
 {
-    width: 19em;
-    height: 16.5em;
+    width: 27%;
+    height: 29%;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
     box-shadow: 1px 1px 10px grey; 
-    margin-left: 50px;
+
 }
 
 
 
 .port img
 {
-    width: 19em; 
-    height: 11em; 
+   width: 100%; 
+   height: 60%;
    border-radius: 15px 15px 0px 0px; 
    object-fit: cover;
 }
@@ -374,22 +373,22 @@ header h2
 
 .mouettes
 {
-    width: 19em;
-    height: 16.5em;
+    margin-right: 37px;
+    width: 27%;
+    height: 29%;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
     box-shadow: 1px 1px 10px grey; 
-    margin-left: 50px;
-    margin-right: 50px;
+
 }
 
 
 
 .mouettes img
 {
-    width: 19em; 
-    height: 11em; 
+    width: 100%; 
+    height: 60%;
    border-radius: 15px 15px 0px 0px; 
    object-fit: cover;
 }
@@ -398,21 +397,22 @@ header h2
 
 .mer
 {
-    width: 19em;
-    height: 16.5em;
+    margin-left: 37px;
+    width: 27%;
+    height: 29%;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
     box-shadow: 1px 1px 10px grey; 
-    margin-left: 50px;
+
 }
 
 
 
 .mer img
 {
-    width: 19em; 
-    height: 11em;  
+    width: 100%; 
+    height: 60%; 
    border-radius: 15px 15px 0px 0px;
    object-fit: cover; 
 }
@@ -420,22 +420,20 @@ header h2
 
 .panier
 {
-
-    width: 19em;
-    height: 16.5em;
+    width: 27%;
+    height: 29%;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
     box-shadow: 1px 1px 10px grey; 
-    margin-left: 50px;
 }
 
 
 
 .panier img
 {
-    width: 19em; 
-    height: 11em; 
+    width: 100%; 
+    height: 60%;
    border-radius: 15px 15px 0px 0px; 
    object-fit: cover;
 }
@@ -445,31 +443,31 @@ header h2
 
 .amina
 {
-
-    margin-left: 50px;
-    width: 19em;
-    height: 16.5em;
+    margin-right: 37px;
+    width: 27%;
+    height: 29%;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
     box-shadow: 1px 1px 10px grey; 
+
 }
 
 
 
 .amina img
 {
-    width: 19em; 
-    height: 11em; 
+   width: 100%; 
+   height: 60%; 
    border-radius: 15px 15px 0px 0px; 
    object-fit: cover;
 }
 
 .hebergement h4
 {
-    font-size: 19px;
-    margin-left: 50px;
-    padding-bottom: 1em;
+    font-size: 15px;
+    margin-left: 5%;
+
     
 }
 
@@ -477,35 +475,36 @@ header h2
 {
 
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #F2F2F2;
-    width: 30em;
-    height: 52em;
-    margin-left: 3em;
+    width: 32%;
+    height: 38em;
     border-radius: 25px;
     margin-top: 20px;
 }
 
-#titre
-{
+#titre_2
+{ 
+    width: 85%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-left: 37px;
+    margin-right: 37px;
+    height: 30px;
+    margin-top: 40px;
 }
 
-#titre i 
+#titre_2 i 
 {
-    font-size: 22px;
-    margin-left: 4em;
-    margin-top: 1em;
+    font-size: 20px;
 }
 
-#titre h2
+#titre_2 h2
 {
-    font-size: 28px;
+    font-size: 20px;
     white-space: nowrap;
-    margin-left: 50px;
-    padding-bottom: 20px;
-    padding-top: 35px;
 }
 
 
@@ -513,20 +512,20 @@ header h2
 .soleil
 {
     display: flex;
-    width: 23em;
-    height: 10em;
+    width: 85%;
+    height: 21%;
+    margin-left: 37px;
+    margin-right: 37px;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
     box-shadow: 1px 1px 10px grey;  
-    margin-bottom: 4em;
-    margin-left: 3em;
 }
 
 .soleil img
 {
-   width: 9em; 
-   height: 10em; 
+   width: 40%; 
+   height: 100%; 
    border-radius: 15px 0px 0px 15px; 
    object-fit: cover;
 }
@@ -535,17 +534,19 @@ header h2
 
 .txt_2
 {
+    margin-top: -7px;
+    font-size: 13px;
     margin-left: 15px;
-    line-height: 17px;
+    line-height: 14px;
     
 }
 
 .txt_2 i 
 {
     color: #0065FC;
-    font-size: 13px;
+    margin-top: 27px;
+    font-size: 11px;
     letter-spacing: -2px;
-    margin-top: 2.8em;
     
 }
 
@@ -553,20 +554,20 @@ header h2
 .eau
 {
     display: flex;
-    width: 23em;
-    height: 10em;
+    width: 85%;
+    height: 21%;
+    margin-left: 37px;
+    margin-right: 37px;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 1px 1px 10px grey;
-    margin-bottom: 4em;
-    margin-left: 3em;    
+    box-shadow: 1px 1px 10px grey;  
 }
 
 .eau img
 {
-   width: 9em; 
-   height: 10em; 
+    width: 40%; 
+    height: 100%; 
    border-radius: 15px 0px 0px 15px; 
    object-fit: cover;
 }
@@ -574,20 +575,20 @@ header h2
 .bleu_blanc
 {
     display: flex;
-    width: 23em;
-    height: 10em;
+    width: 85%;
+    height: 21%;
+    margin-left: 37px;
+    margin-right: 37px;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 1px 1px 10px grey;
-    margin-bottom: 4em;  
-    margin-left: 3em;  
+    box-shadow: 1px 1px 10px grey;  
 }
 
 .bleu_blanc img
 {
-   width: 9em; 
-   height: 10em;
+    width: 40%; 
+    height: 100%; 
    border-radius: 15px 0px 0px 15px;
    object-fit: cover; 
 }
@@ -595,44 +596,54 @@ header h2
 .main
 {
     display: flex;
+    justify-content: space-between;
     
 }
 
 .activites 
 {
-    margin-top: 2em;
-    margin-left: 3em;
-    height: 670px;
+    max-width: 1200px;
+    height: 25em;
+    margin-top: 20px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 90px;
 
+}
+
+#column
+{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
     
 .activites h2
 {
-    font-size: 29px;
+    padding-right: 100%;
+    font-size: 20px;
     white-space: nowrap;
-    padding-top: 35px;
-    padding-right: 50em;
-    
 }
 
 .activites figcaption
 {
-    height: 22px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 900;
-    margin-top: 17px;
-    margin-left: 15px;
-    padding-bottom: 15px;
+    text-align: justify;
+    margin-top: 13px;
+    margin-left: 10px;
     
 }
  
 #port 
 {
-    margin-top: 10px;
-    margin-bottom: 2em;
+    width: 23%;
+    height: 100%;
     box-shadow: 1px 1px 10px grey;
     border-radius: 15px 15px 15px 15px;
 
@@ -640,128 +651,128 @@ header h2
 
 #port img
 {
-    
-    width: 380px;
-    height: 485px;
+    width: 100%;
+    height: 89%;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
-
-.bloc_1
-{
-    display: flex;
-    flex-flow: column;
-}
-
 
 
 
 #fort 
 {
-    margin-top: 10px;
-    margin-left: 50px;
+    width: 100%;
+    height: 55%;
     box-shadow: 1px 1px 10px grey;
-    border-radius: 15px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 #fort img
 {
-    width: 380px;
-    height: 235px;
-    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 80%;
     object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
 }
+
 
 #frioul
 {
-    margin-top: 50px;
-    margin-left: 50px;
+    width: 100%;
+    height: 38%;
     box-shadow: 1px 1px 10px grey;
-    border-radius: 15px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 #frioul img
-{
-    width: 380px;
-    height: 147px;
-    border-radius: 15px 15px 0px 0px;
+{   
+    width: 100%;
+    height: 71%;
     object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
 }
+
 
 #parc
 {
-    margin-top: 10px;
-    margin-bottom: 2em;
+    width: 23%;
+    height: 100%;
     box-shadow: 1px 1px 10px grey;
     border-radius: 15px 15px 15px 15px;
-    margin-left: 50px;
 
 }
 
 #parc img
 {
-    
-    width: 380px;
-    height: 485px;
+    width: 100%;
+    height: 89%;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
+
 
 #dame
 {
-    margin-top: 10px;
-    margin-left:  50px;
+    width: 100%;
+    height: 38%;
     box-shadow: 1px 1px 10px grey;
-    border-radius: 15px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 #dame img
-{
-    width: 380px;
-    height: 147px;
-    padding-right: 0;
-    border-radius: 15px 15px 0px 0px;
+{ 
+    width: 100%;
+    height: 71%;
     object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
 }
+
 
 #longchamp
 {
-    margin-top: 50px;
-    margin-left: 50px;
+    width: 100%;
+    height: 55%;
     box-shadow: 1px 1px 10px grey;
-    border-radius: 15px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 #longchamp img
-{
-    width: 380px;
-    height: 235px;
-    border-radius: 15px 15px 0px 0px;
+{  
+    width: 100%;
+    height: 80%;
     object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
 }
 
 footer
 {
-    margin-top: 4em;
+    margin-top: 2em;
     background-color: #F2F2F2;
     display: flex;
     flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
 }
 
 #a_propos
 {
-    margin-left: 3em;
+    font-size: 14px;
+    white-space: nowrap;
 }
 
 #nos_hebergements
 {
-    margin-left: 25em;
+    font-size: 14px;
 }
 
 #assistance
 {
-    margin-left: 25em;
+    font-size: 14px;
 }
+
+
+
+
 
 
 
