@@ -7,11 +7,7 @@
 #container
 {
     max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin: auto;
-  
 }
 
 body
@@ -625,7 +621,7 @@ header h2
     
 .activites h2
 {
-    padding-right: 100%;
+    padding-right: 70%;
     font-size: 20px;
     white-space: nowrap;
 }
