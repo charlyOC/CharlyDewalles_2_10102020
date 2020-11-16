@@ -27,8 +27,9 @@ body
 
 header img 
 {
-    width: 8%; 
+    width: 90px; 
     padding-bottom: 2em;
+    object-fit: scale-down;
 }
 
 
@@ -57,7 +58,7 @@ a:hover
     
     color: #0065FC;
     border-top: 3px #0065FC solid;
-    padding-top: 55px;
+    padding-top: 46px;
 }
 
 #inscrire
@@ -100,9 +101,10 @@ header h2
 
 #loc
 {
+    white-space: nowrap;
     font-size: 17px;
     font-weight: 900;
-    padding: 14px;
+    padding: 6%;
     padding-right: 80px;
     border-top: 2px #F2F2F2 solid;
     border-bottom: 2px #F2F2F2 solid;
@@ -121,10 +123,12 @@ header h2
 }
 
 .filtres
-{
-
+{   
+    width: 70%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
@@ -151,7 +155,6 @@ header h2
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 30px;
     height: 50px;
     border: 2.5px  #F2F2F2 solid;
     border-left: none;
@@ -176,7 +179,6 @@ header h2
 
 .familial
 {
-    margin-left: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -202,7 +204,6 @@ header h2
 
 .romantique
 {
-    margin-left: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -227,7 +228,6 @@ header h2
 
 .animaux
 {
-    margin-left: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -313,6 +313,7 @@ header h2
 
 
 
+
 .cannebiere img
 {
    width: 100%; 
@@ -323,9 +324,9 @@ header h2
 
 .text
 {
-    font-size: 13px;
+    font-size: 80%;
     margin-left: 8px;
-    line-height: 5px;
+    line-height: 55%;
 }
 
 .text i 
@@ -531,9 +532,9 @@ header h2
 .txt_2
 {
     margin-top: -7px;
-    font-size: 13px;
+    font-size: 80%;
     margin-left: 15px;
-    line-height: 14px;
+    line-height: 120%;
     
 }
 
