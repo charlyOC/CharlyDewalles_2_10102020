@@ -4,9 +4,10 @@
     src: url('raleway/Raleway-Light.ttf')
 }
 
+
 #container
 {
-    max-width: 1200px;
+    max-width: 1160px;
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -17,6 +18,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 #top
@@ -60,7 +62,7 @@ li a:hover
     
     color: #0065FC;
     border-top: 3px #0065FC solid;
-    padding-top: 54px;
+    padding-top: 47px;
 }
 
 #inscrire
@@ -70,10 +72,11 @@ li a:hover
 
 #top_2
 {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-flow: row;   
     justify-content: space-between; 
+    margin: auto;
 }
 
 #top_2 a 
@@ -88,6 +91,9 @@ li a:hover
     text-decoration: initial;
     color: black;
     padding-bottom: 10px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px solid #F2F2F2;
 }
 
 #ancre a:hover
@@ -103,12 +109,10 @@ li a:hover
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    border-bottom: #F2F2F2 2px solid;
 }
 
 header h1
 {
-  
     font-size: 20px;
     font-weight: 800; 
 }
@@ -186,7 +190,7 @@ input
 
 .filtres
 {   
-    width: 70%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -214,7 +218,7 @@ input
 
 .bulle
 {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -287,7 +291,6 @@ input
 
 .disponible
 {
-   
     margin-top: 15px;
     display: flex;  
     align-items: center;
@@ -305,7 +308,7 @@ input
 
 .disponible p
 {
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 19px;  
 }
 
@@ -337,7 +340,7 @@ input
     text-decoration: initial;
     color: initial;
     width: 27%;
-    height: 29%;
+    height: 30%;
     border: 6px white solid;
     border-radius: 20px;
     background-color: white;
@@ -371,17 +374,10 @@ input
 #hebergement img
 {
     width: 100%; 
-    height: 60%; 
+    height: 105px; 
     border-radius: 0px 0px 0px 0px; 
     object-fit: cover;
     transition-duration: 0.4s;
-}
-
-#hebergement img:hover
-{
-    height: 100%;
-    height: 100%;
-    border-radius: 15px;
 }
 
 
@@ -500,7 +496,7 @@ aside
     box-shadow: 1px 1px 10px grey; 
     text-decoration: none; 
     color: initial;
-    overflow: hidden;
+
  
 }
 
@@ -509,14 +505,6 @@ aside
     display: flex;
     flex-direction: row;
 }
-
-#populaires img:hover
-{
-    width: 100%;
-    transition-duration: 0.4s;
-
-}
-
 
 
 
@@ -553,32 +541,18 @@ aside
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 90px;
     color: initial;
 
 }
 
-#activites img 
-{
-    transition-duration: 0.4s;
-    
-}
+
 
 #activites a 
 {
     text-decoration: none;
     color: initial;
-    transition-duration: 0.4s;
 }
 
-
-#activites a:hover 
-{
-    width: 30%;
-    transition-duration: 0.4s;
-    border-radius: 15px;
-    
-}
 
 
 #column
@@ -591,11 +565,6 @@ aside
     align-items: center;
 }
 
-#column a:hover
-{
-    width: 120%;
-    height: 65%;
-}
 
     
 #activites h2
@@ -605,7 +574,7 @@ aside
     white-space: nowrap;
 }
 
-#activites figcaption
+#activites p
 {
     font-size: 14px;
     font-weight: 900;
@@ -613,21 +582,8 @@ aside
     margin-left: 10px;
 }
 
-#column figcaption
-{
-    margin-top: 5%;
-}
 
-#column #frioul:hover
-{
-    height: 45%;
-}
 
-#column #dame:hover
-{
-    height: 45%;
-}
- 
 #port 
 {
     width: 23%;
@@ -640,7 +596,7 @@ aside
 #port img
 {
     width: 100%;
-    height: 89%;
+    height: 350px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
@@ -658,7 +614,7 @@ aside
 #fort img
 {
     width: 100%;
-    height: 80%;
+    height: 170px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
@@ -675,7 +631,7 @@ aside
 #frioul img
 {   
     width: 100%;
-    height: 71%;
+    height: 102px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
@@ -693,7 +649,7 @@ aside
 #parc img
 {
     width: 100%;
-    height: 89%;
+    height: 350px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
@@ -710,7 +666,7 @@ aside
 #dame img
 { 
     width: 100%;
-    height: 71%;
+    height: 102px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
@@ -727,19 +683,21 @@ aside
 #longchamp img
 {  
     width: 100%;
-    height: 80%;
+    height: 170px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
 footer
 {
-    margin-top: 2em;
-    background-color: #F2F2F2;
-    display: flex;
+    max-width: 1200px;
+    display: flex; 
     flex-direction: row;
-    align-content: flex-start;
-    justify-content: space-between;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #F2F2F2;
+
 }
 
 footer p:hover
@@ -751,17 +709,22 @@ footer p:hover
 
 #a_propos
 {
+    margin-left: 20px;
+    width: 40%;
     font-size: 14px;
     white-space: nowrap;
 }
 
 #nos_hebergements
 {
+    width: 40%;
     font-size: 14px;
+    white-space: nowrap;
 }
 
 #assistance
 {
+    width: 40%;
     font-size: 14px;
 }
 
@@ -779,6 +742,19 @@ footer p:hover
 }
 
 @media all and (max-width: 1199.98px)
+{
+    #icon_2
+    {
+        display: none;
+    }
+
+    #nav_2
+    {
+        display: none;
+    }
+}
+
+@media all and (max-width: 992.98px)
 {
 
     #container
@@ -819,13 +795,6 @@ footer p:hover
         width: auto;
     }
 
-
-    #populaires img:hover
-    {
-        width: 70%;
-        
-    }
-
     #hebergement
     {
         width: auto; 
@@ -833,8 +802,27 @@ footer p:hover
 
 }
 
-@media (max-width: 767.98px)  
+@media all and (max-width: 767.98px)  
 {
+
+    header h1
+    {
+        width: 80%;
+        white-space: pre-wrap;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    header h2
+    {
+        margin-top: 20px;
+        width: 90%;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+
+
     nav
     {
         display: none;
@@ -858,6 +846,9 @@ footer p:hover
     .localisation
     {
         width: auto;
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     input
@@ -888,15 +879,29 @@ footer p:hover
         
     }
 
+    .filtres
+    {
+        width: auto;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 
+    #titre
+    {
+        padding-right: 90%;
+    }
+
+    .disponible
+    {
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 
     #populaires
     {
         max-width: 100%;
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 42em;
         border-radius: initial;
     }
 
@@ -917,15 +922,12 @@ footer p:hover
     {
 
         max-width: 100%;
-        height: 114em;
+        height: 110em;
         display: flex;
         flex-flow: column;
         justify-content: space-between;
         background-color: unset;
-        position: absolute;
-        top: 80em;
-        right: 0;
-        left: 0;
+
     }
 
     #hebergement h2
@@ -938,12 +940,12 @@ footer p:hover
         width: auto;
         margin-left: 15px;
         margin-right: 15px;
-        height: 13%;
+        height: 233px;
     }
 
     #hebergement img 
     {
-        height: 70%;
+        height: 155px;
     } 
 
     #hebergement button 
@@ -962,22 +964,20 @@ footer p:hover
         display: flex;
         flex-flow: column;  
         justify-content: space-between;
-        height: 114em;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 195em;
+        height: 103em;
+    
     }
 
     #activites h2
     {
         margin-left: 15px;
+        white-space: nowrap;
     }
 
     #activites a 
     {
         width: auto;
-        height: 13%;
+        height: 233px;
         margin-left: 15px;
         margin-right: 15px;
     }
@@ -987,12 +987,12 @@ footer p:hover
 
     #activites img 
     {
-        height: 82%;
+        height: 180px
     }
 
     #column img 
     {
-        height: 82%;
+        height: 180px
     }
 
     #column 
@@ -1001,14 +1001,14 @@ footer p:hover
         flex-flow: column;  
         justify-content: space-between;
         width: auto;
-        height: 30%;
+        height: 31em;
         
     }
 
     #column a
     {
         max-width: 100%;
-        height: 45%
+        height: 233px;
     }
 
     #column figcaption
@@ -1022,10 +1022,7 @@ footer p:hover
         display: flex;
         flex-flow: column;
         justify-content: center;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 315em;
+
     }
 
     #a_propos
@@ -1045,3 +1042,4 @@ footer p:hover
 
 
 }
+
